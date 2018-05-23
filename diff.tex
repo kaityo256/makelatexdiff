@@ -1,0 +1,252 @@
+\documentclass[b5paper,papersize,twocolumn]{jsarticle}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL submit/sample.tex   Wed May 23 22:01:39 2018
+%DIF ADD sample.tex          Wed May 23 22:02:43 2018
+\usepackage{graphicx}
+
+\title{象の\DIFdelbegin \DIFdel{玉子}\DIFdelend \DIFaddbegin \DIFadd{卵}\DIFaddend と重力波}
+
+\author{物理花子・重力太郎}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+\maketitle
+
+\section{\DIFdelbegin \DIFdel{重力波直接検出}\DIFdelend \DIFaddbegin \DIFadd{重力波検出}\DIFaddend と象の卵}
+
+我が国では\DIFdelbegin \DIFdel{昔から}\DIFdelend \DIFaddbegin \DIFadd{古来より}\DIFaddend 「象の卵」の探索が精力的に続けられており，
+関連文献も極めて多数出版されているが，残念ながら未だに
+象の卵の発見には至っていない．しかしこれまでの研究により，
+予想される象の卵の性質についてはかなり解明されている．
+そんなおり，2017年のノーベル物理学賞が重力波の直接検出に与えられた．
+このニュースが象の卵界に与えた影響は\DIFaddbegin \DIFadd{極めて}\DIFaddend 大きい．なぜなら
+理論的に象の卵は (もし存在するのなら)重力波の影響を\DIFdelbegin \DIFdel{極めて}\DIFdelend 強く受けると
+考えられているからだ~\cite{elephant}．
+理論的な考察により，象の卵は最低でも11次元空間を持つ．
+そのうち，我々の住む3次元以上の次元は\DIFaddbegin \DIFadd{小さく}\DIFaddend 折りたたまれている．
+次元が折りたたまれる際\DIFdelbegin \DIFdel{，}\DIFdelend \DIFaddbegin \DIFadd{に}\DIFaddend 強く空間が曲がるため，通常の空間よりも
+重力波による空間の伸縮が大きくなる．\DIFaddbegin \DIFadd{そのため，}\DIFaddend 卵の形状は重力波と共振を起こしやすい．
+シミュレーションによれば，重力波に晒された場合，その卵から生まれる象の
+90\%以上が雌になったという報告もある．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．\footnote{%
+普通の卵もおいしいぞう．
+}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\linewidth]{eggphant.eps}
+\caption{象の卵 (想像図)．イラストは「いらすとや」による．}
+\label{fig_eggphant}
+\end{figure}
+
+\section{象の卵と科研費について}
+言うまでもなく「象の卵 (図\ref{fig_eggphant}参照)」とは科研費申請書類を指す隠語である．
+科研費は日本の研究を支える極めて重要な予算であり，
+「\DIFdelbegin \DIFdel{当たらないと}\DIFdelend \DIFaddbegin \DIFadd{獲得しないと}\DIFaddend 年が越せない」と言う研究者もいる．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+
+
+
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+
+
+
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+象の卵はおいしいぞう．
+
+\begin{thebibliography}{99}
+\bibitem{elephant}
+L. Africana, E. M. Bengalensisand, T. Kotai: J. Egg Elephant B {\bf 123} (2001) 456.
+\end{thebibliography}
+
+\end{document}
